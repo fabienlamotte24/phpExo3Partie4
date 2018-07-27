@@ -13,10 +13,8 @@
     /*on retourne la variable*/
     return $concatener;
   }
-  /*On affecte la fonction ainsi que les valeurs des parametres*/
-  $concatener = concat('Fabien', ' Lamotte');
   /*Puis on affiche le contenu*/
-  echo 'Je m\'appelle ' . $concatener;
+  echo 'Je m\'appelle ' . concat('Fabien', ' Lamotte');
  ?>
     </p>
   </body>
